@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp_laba1_2_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_laba1_2_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+
+    <Grid Margin="0,0,0,6">
+        <Border BorderThickness="1" BorderBrush="Black" Margin="93,34,66,459" Background="#FFE8BE95" Height="85" RenderTransformOrigin="0.497,0.558">
+            
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Black" Margin="93,137,66,21">
+            <Label Content="Стиль письма - 7" Margin="453,31,9,334" FontSize="25"/>
+        </Border>
+        <Border BorderThickness="3" BorderBrush="Black" Margin="117,163,385,136">
+            <Image Margin="3,6,3,6" Stretch="Fill" Source="/download.jpg"/>
+        </Border>
+        <Label Content="Top 5 письменників  ==> Джордж Оруелл" Margin="93,34,66,459" FontSize="36"/>
+        <Label Content="Характеристика - 9" Margin="544,238,85,289" FontSize="25"/>
+        <Label Content="Вплив - 10" Margin="544,303,85,212" FontSize="25"/>
+        <Label Content="Читабельність - 8" Margin="544,372,85,136" FontSize="25"/>
+        <TextBox Text="Основними роботами Джорджа Оруелла є 1984, лякаючий образ тоталітарної майбутньої держави, і Ферма тварин." TextWrapping="Wrap" Margin="117,447,85,35" FontSize="25"/>
+
+    </Grid>
+</Window>
