@@ -9,7 +9,7 @@
 
     <Grid Margin="0,0,0,6">
         <Border BorderThickness="1" BorderBrush="Black" Margin="93,34,66,459" Background="#FFE8BE95" Height="85" RenderTransformOrigin="0.497,0.558">
-            
+            <Label Content="Top 5 письменників  ==> Джордж Оруелл" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"/>
         </Border>
         <Border BorderThickness="1" BorderBrush="Black" Margin="93,137,66,21">
             <Label Content="Стиль письма - 7" Margin="453,31,9,334" FontSize="25"/>
@@ -17,7 +17,7 @@
         <Border BorderThickness="3" BorderBrush="Black" Margin="117,163,385,136">
             <Image Margin="3,6,3,6" Stretch="Fill" Source="/download.jpg"/>
         </Border>
-        <Label Content="Top 5 письменників  ==> Джордж Оруелл" Margin="93,34,66,459" FontSize="36"/>
+        
         <Label Content="Характеристика - 9" Margin="544,238,85,289" FontSize="25"/>
         <Label Content="Вплив - 10" Margin="544,303,85,212" FontSize="25"/>
         <Label Content="Читабельність - 8" Margin="544,372,85,136" FontSize="25"/>
